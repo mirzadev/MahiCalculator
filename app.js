@@ -13,3 +13,10 @@ function AddNumbers() {
     calResult.textContent = result.toString();
 }
 AddBtn.addEventListener("click", AddNumbers);
+function SubtractNumbers() {
+    let a = parseFloat(firstNum.value);
+    let b = parseFloat(secondNum.value);
+    let result = a - b;
+    calResult.textContent = result.toString();
+}
+SubtBtn.addEventListener("click", SubtractNumbers);
