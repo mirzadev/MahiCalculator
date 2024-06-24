@@ -20,3 +20,17 @@ function SubtractNumbers() {
     calResult.textContent = result.toString();
 }
 SubtBtn.addEventListener("click", SubtractNumbers);
+function MultiplyNumbers() {
+    let a = parseFloat(firstNum.value);
+    let b = parseFloat(secondNum.value);
+    let result = a * b;
+    calResult.textContent = result.toString();
+}
+MultBtn.addEventListener("click", MultiplyNumbers);
+function DivideNumbers() {
+    let a = parseFloat(firstNum.value);
+    let b = parseFloat(secondNum.value);
+    let result = a / b;
+    calResult.textContent = result.toString();
+}
+DvnBtn.addEventListener("click", DivideNumbers);
