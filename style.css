@@ -50,14 +50,14 @@ button {
 }
 
 #Addition {
-  background: rgb(70, 70, 235);
+  background: rgb(62, 62, 236);
 }
 #Subtraction {
-  background: rgb(13, 166, 232);
+  background: rgb(4, 165, 246);
 }
 #Multiplication {
-  background: rgb(113, 230, 75);
+  background: rgb(32, 105, 8);
 }
 #Division {
-  background: rgb(232, 108, 127);
+  background: rgb(238, 102, 123);
 }
