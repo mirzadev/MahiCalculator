@@ -8,3 +8,56 @@ h1 {
   text-align: center;
   font-weight: 900;
 }
+input {
+  width: 12rem;
+  height: 2rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+  background: rgb(221, 218, 218);
+}
+::placeholder {
+  font-size: 1rem;
+}
+
+#Calculations,
+#Calculation_Type {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#number1 {
+  margin-top: 3rem;
+}
+#number2 {
+  margin-top: 3rem;
+}
+
+#Calculation_result {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+button {
+  width: 7rem;
+  height: 2rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: #ffffff;
+}
+
+#Addition {
+  background: rgb(70, 70, 235);
+}
+#Subtraction {
+  background: rgb(13, 166, 232);
+}
+#Multiplication {
+  background: rgb(113, 230, 75);
+}
+#Division {
+  background: rgb(232, 108, 127);
+}

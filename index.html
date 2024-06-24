@@ -12,17 +12,17 @@
     <div>
       <h1>MAHI SIMPLE CALCULATOR</h1>
     </div>
-    <div>
+    <div id="Calculations">
       <div id="input_fields">
         <div id="number1">
           <div>
-            <label for="number" id="number-tag1">Your First Number:</label>
+            <label for="number" id="number_tag1">Your First Number:</label>
           </div>
           <div>
             <input
               type="number"
               id="firstNumber"
-              placeholder="Enter Your First Number"
+              placeholder="Enter First Number"
             />
           </div>
         </div>
@@ -35,19 +35,22 @@
           <input
             type="number"
             id="SecondNumber"
-            placeholder="Enter Your Second Number"
+            placeholder="Enter Second Number"
           />
         </div>
       </div>
-      <div>
-        <h3>Calculation Result: <output id="result"></output></h3>
+      <div id="Calculation_result">
+        <h3>
+          Calculation Result:
+          <output id="result"></output>
+        </h3>
       </div>
     </div>
-    <div>
-      <button id="Add">Addition</button>
-      <button id="Add">Subtraction</button>
-      <button id="Add">Multiplication</button>
-      <button id="Add">Division</button>
+    <div id="Calculation_Type">
+      <button id="Addition">Addition</button>
+      <button id="Subtraction">Subtraction</button>
+      <button id="Multiplication">Multiplication</button>
+      <button id="Division">Division</button>
     </div>
     <script>
       src = "mahiCal.ts";
