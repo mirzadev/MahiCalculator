@@ -5,6 +5,7 @@ const AddBtn = document.getElementById("Addition");
 const SubtBtn = document.getElementById("Subtraction");
 const MultBtn = document.getElementById("Multiplication");
 const DvnBtn = document.getElementById("Division");
+const ClrBtn = document.getElementById("Clear");
 const calResult = document.getElementById("result");
 function checkNumberInRange(number) {
     const pattern = new RegExp("^[-+]?[0-9]{1,4}.[0-9]{0,2}$");
@@ -70,3 +71,8 @@ function DivideNumbers() {
     calResult.textContent = result.toString();
 }
 DvnBtn.addEventListener("click", DivideNumbers);
+function clear() {
+    firstNum.value = "";
+    secondNum.value = "";
+}
+ClrBtn.addEventListener("click", clear);

@@ -5,10 +5,10 @@ const AddBtn = document.getElementById("Addition") as HTMLButtonElement;
 const SubtBtn = document.getElementById("Subtraction") as HTMLButtonElement;
 const MultBtn = document.getElementById("Multiplication") as HTMLButtonElement;
 const DvnBtn = document.getElementById("Division") as HTMLButtonElement;
-
+const ClrBtn = document.getElementById("Clear") as HTMLButtonElement;
 const calResult = document.getElementById("result") as HTMLOutputElement;
 
-function checkNumberInRange(number: string): boolean {
+function checkNumberInRange(number: string) {
   const pattern = new RegExp("^[-+]?[0-9]{1,4}.[0-9]{0,2}$");
   return pattern.test(number);
 }
@@ -83,3 +83,9 @@ function DivideNumbers() {
   calResult.textContent = result.toString();
 }
 DvnBtn.addEventListener("click", DivideNumbers);
+
+function clear() {
+  firstNum.value = "";
+  secondNum.value = "";
+}
+ClrBtn.addEventListener("click", clear);
