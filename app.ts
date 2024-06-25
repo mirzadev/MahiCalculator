@@ -5,7 +5,6 @@ const AddBtn = document.getElementById("Addition") as HTMLButtonElement;
 const SubtBtn = document.getElementById("Subtraction") as HTMLButtonElement;
 const MultBtn = document.getElementById("Multiplication") as HTMLButtonElement;
 const DvnBtn = document.getElementById("Division") as HTMLButtonElement;
-const ClearBtn = document.getElementById("Clear") as HTMLButtonElement;
 const calResult = document.getElementById("result") as HTMLOutputElement;
 
 function AddNumbers() {
