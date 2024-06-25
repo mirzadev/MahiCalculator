@@ -74,5 +74,6 @@ DvnBtn.addEventListener("click", DivideNumbers);
 function clear() {
     firstNum.value = "";
     secondNum.value = "";
+    calResult.value = "";
 }
 ClrBtn.addEventListener("click", clear);

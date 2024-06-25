@@ -8,7 +8,7 @@ const DvnBtn = document.getElementById("Division") as HTMLButtonElement;
 const ClrBtn = document.getElementById("Clear") as HTMLButtonElement;
 const calResult = document.getElementById("result") as HTMLOutputElement;
 
-function checkNumberInRange(number: string) {
+function checkNumberInRange(number: string): boolean {
   const pattern = new RegExp("^[-+]?[0-9]{1,4}.[0-9]{0,2}$");
   return pattern.test(number);
 }
@@ -87,5 +87,6 @@ DvnBtn.addEventListener("click", DivideNumbers);
 function clear() {
   firstNum.value = "";
   secondNum.value = "";
+  calResult.value = "";
 }
 ClrBtn.addEventListener("click", clear);
