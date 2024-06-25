@@ -5,7 +5,7 @@ const AddBtn = document.getElementById("Addition") as HTMLButtonElement;
 const SubtBtn = document.getElementById("Subtraction") as HTMLButtonElement;
 const MultBtn = document.getElementById("Multiplication") as HTMLButtonElement;
 const DvnBtn = document.getElementById("Division") as HTMLButtonElement;
-
+const ClearBtn = document.getElementById("Clear") as HTMLButtonElement;
 const calResult = document.getElementById("result") as HTMLOutputElement;
 
 function AddNumbers() {
@@ -23,3 +23,13 @@ function SubtractNumbers() {
   calResult.textContent = result.toString();
 }
 SubtBtn.addEventListener("click", SubtractNumbers);
+
+// function ClearEntry() {git add
+//   let a = parseFloat(firstNum.value);
+//   let b = parseFloat(secondNum.value);
+//   let result = a - a;
+//   let result1 = b - b;
+//   ClearBtn.textContent = result.toString();
+//   ClearBtn.textContent = result1.toString();
+// }
+// ClearBtn.addEventListener("Click", ClearEntry);
