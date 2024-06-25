@@ -39,13 +39,3 @@ function DivideNumbers() {
   calResult.textContent = result.toString();
 }
 DvnBtn.addEventListener("click", DivideNumbers);
-
-// function ClearEntry() {git add
-//   let a = parseFloat(firstNum.value);
-//   let b = parseFloat(secondNum.value);
-//   let result = a - a;
-//   let result1 = b - b;
-//   ClearBtn.textContent = result.toString();
-//   ClearBtn.textContent = result1.toString();
-// }
-// ClearBtn.addEventListener("Click", ClearEntry);
