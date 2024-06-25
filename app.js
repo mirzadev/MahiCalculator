@@ -21,12 +21,26 @@ function SubtractNumbers() {
     calResult.textContent = result.toString();
 }
 SubtBtn.addEventListener("click", SubtractNumbers);
-function ClearEntry() {
+// function ClearEntry() {git add
+//   let a = parseFloat(firstNum.value);
+//   let b = parseFloat(secondNum.value);
+//   let result = a - a;
+//   let result1 = b - b;
+//   ClearBtn.textContent = result.toString();
+//   ClearBtn.textContent = result1.toString();
+// }
+// ClearBtn.addEventListener("Click", ClearEntry);
+function MultiplyNumbers() {
     let a = parseFloat(firstNum.value);
     let b = parseFloat(secondNum.value);
-    let result = a - a;
-    let result1 = b - b;
-    ClearBtn.textContent = result.toString();
-    ClearBtn.textContent = result1.toString();
+    let result = a * b;
+    calResult.textContent = result.toString();
 }
-ClearBtn.addEventListener("Click", ClearEntry);
+MultBtn.addEventListener("click", MultiplyNumbers);
+function DivideNumbers() {
+    let a = parseFloat(firstNum.value);
+    let b = parseFloat(secondNum.value);
+    let result = a / b;
+    calResult.textContent = result.toString();
+}
+DvnBtn.addEventListener("click", DivideNumbers);

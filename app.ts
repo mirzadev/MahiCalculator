@@ -33,3 +33,18 @@ SubtBtn.addEventListener("click", SubtractNumbers);
 //   ClearBtn.textContent = result1.toString();
 // }
 // ClearBtn.addEventListener("Click", ClearEntry);
+function MultiplyNumbers() {
+  let a = parseFloat(firstNum.value);
+  let b = parseFloat(secondNum.value);
+  let result = a * b;
+  calResult.textContent = result.toString();
+}
+MultBtn.addEventListener("click", MultiplyNumbers);
+
+function DivideNumbers() {
+  let a = parseFloat(firstNum.value);
+  let b = parseFloat(secondNum.value);
+  let result = a / b;
+  calResult.textContent = result.toString();
+}
+DvnBtn.addEventListener("click", DivideNumbers);
