@@ -62,5 +62,9 @@ button {
   background: rgb(238, 102, 123);
 }
 #Clear {
+<<<<<<< HEAD
   background: rgb(133, 39, 39);
+=======
+  background: rgb(64, 19, 19);
+>>>>>>> e6200051e867347b4261a6189df200a759a85475
 }
