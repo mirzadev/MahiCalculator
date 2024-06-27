@@ -38,6 +38,13 @@ input {
   margin-bottom: 3rem;
 }
 
+#divResults {
+  margin-bottom: 1rem;
+  color: rgb(241, 55, 55);
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
 button {
   width: 7rem;
   height: 2rem;
