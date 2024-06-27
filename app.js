@@ -9,8 +9,9 @@ const ClrBtn = document.getElementById("Clear");
 const calResult = document.getElementById("result");
 const messageElm = document.getElementById("divResults");
 function checkNumberInRange(number) {
-    const pattern = new RegExp("^[-+]?[0-9]{1,4}(\\.[0-9]{1,2})?$");
-    return pattern.test(number);
+
+    const pattern = new RegExp("^[-+]?[0-9]{1,4}(.?[0-9]{1,2})?$");
+return pattern.test(number);
 }
 //To fadeout the error message after 10 second
 let message2 = " ";
