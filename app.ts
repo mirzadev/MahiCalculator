@@ -18,7 +18,7 @@ let message: string = " ";
 const messageFadeout = () => {
   setTimeout(() => {
     messageElm.innerHTML = "";
-  }, 10000);
+  }, 10000); // 10 second delay
 };
 
 // Addition function
@@ -31,6 +31,7 @@ function AddNumbers() {
     messageElm.innerHTML = "Number is not in range!";
     console.log("Number is not in range!");
     messageFadeout();
+    return;
   } else {
     console.log(message);
   }
@@ -51,6 +52,7 @@ function SubtractNumbers() {
     messageElm.innerHTML = "Number is not in range!";
     console.log("Number is not in range!");
     messageFadeout();
+    return;
   } else {
     console.log(message);
   }
@@ -71,6 +73,7 @@ function MultiplyNumbers() {
     messageElm.innerHTML = "Number is not in range!";
     console.log("Number is not in range!");
     messageFadeout();
+    return;
   } else {
     console.log(message);
   }
@@ -91,6 +94,7 @@ function DivideNumbers() {
     messageElm.innerHTML = "Number is not in range!";
     console.log("Number is not in range!");
     messageFadeout();
+    return;
   } else {
     console.log(message);
   }
