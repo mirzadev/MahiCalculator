@@ -42,7 +42,7 @@ To create a simple calculator app using:
 
 ## Deployed
 
-- \*[Calculator App](https://github.com/mirzadev/MahiCalculator)
+- \*[Calculator App](https://rococo-tanuki-20f259.netlify.app/)
 
 
 ## Tools
