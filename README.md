@@ -54,5 +54,5 @@ To create a simple calculator app using:
 
 ## Questions
 
-- \*[Email](awal3512@gmail.com)
+- \*[Email](awal.mirza2016@gmail.com)
 - \*[GitHub Profile](https://github.com/mirzadev)
