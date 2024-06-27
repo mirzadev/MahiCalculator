@@ -8,7 +8,7 @@ const DvnBtn = document.getElementById("Division");
 const ClrBtn = document.getElementById("Clear");
 const calResult = document.getElementById("result");
 function checkNumberInRange(number) {
-    const pattern = new RegExp("^[-+]?[0-9]{1,4}.[0-9]{0,2}$");
+    const pattern = new RegExp("^[-+]?[0-9]{1,4}(.?[0-9]{1,2})?$");
     return pattern.test(number);
 }
 function AddNumbers() {

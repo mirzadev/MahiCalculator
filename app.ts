@@ -9,7 +9,7 @@ const ClrBtn = document.getElementById("Clear") as HTMLButtonElement;
 const calResult = document.getElementById("result") as HTMLOutputElement;
 
 function checkNumberInRange(number: string): boolean {
-  const pattern = new RegExp("^[-+]?[0-9]{1,4}.[0-9]{0,2}$");
+  const pattern = new RegExp("^[-+]?[0-9]{1,4}(.?[0-9]{1,2})?$");
   return pattern.test(number);
 }
 function AddNumbers() {
