@@ -13,7 +13,7 @@ function checkNumberInRange(number) {
     return pattern.test(number);
 }
 //To fadeout the error message after 10 second
-let message2 = " ";
+let message = " ";
 const messageFadeout = () => {
     setTimeout(() => {
         messageElm.innerHTML = "";
@@ -24,12 +24,12 @@ function AddNumbers() {
     if (!checkNumberInRange(firstNum.value) ||
         !checkNumberInRange(secondNum.value)) {
         //Error Message
-        messageElm.innerHTML = "Number is not in range";
-        console.log("Number is not in range");
+        messageElm.innerHTML = "Number is not in range!";
+        console.log("Number is not in range!");
         messageFadeout();
     }
     else {
-        console.log(message2);
+        console.log(message);
     }
     let a = parseFloat(firstNum.value);
     let b = parseFloat(secondNum.value);
@@ -41,12 +41,12 @@ AddBtn.addEventListener("click", AddNumbers);
 function SubtractNumbers() {
     if (!checkNumberInRange(firstNum.value) ||
         !checkNumberInRange(secondNum.value)) {
-        messageElm.innerHTML = "Number is not in range";
-        console.log("Number is not in range");
+        messageElm.innerHTML = "Number is not in range!";
+        console.log("Number is not in range!");
         messageFadeout();
     }
     else {
-        console.log(message2);
+        console.log(message);
     }
     let a = parseFloat(firstNum.value);
     let b = parseFloat(secondNum.value);
@@ -58,12 +58,12 @@ SubtBtn.addEventListener("click", SubtractNumbers);
 function MultiplyNumbers() {
     if (!checkNumberInRange(firstNum.value) ||
         !checkNumberInRange(secondNum.value)) {
-        messageElm.innerHTML = "Number is not in range";
-        console.log("Number is not in range");
+        messageElm.innerHTML = "Number is not in range!";
+        console.log("Number is not in range!");
         messageFadeout();
     }
     else {
-        console.log(message2);
+        console.log(message);
     }
     let a = parseFloat(firstNum.value);
     let b = parseFloat(secondNum.value);
@@ -75,12 +75,12 @@ MultBtn.addEventListener("click", MultiplyNumbers);
 function DivideNumbers() {
     if (!checkNumberInRange(firstNum.value) ||
         !checkNumberInRange(secondNum.value)) {
-        messageElm.innerHTML = "Number is not in range";
-        console.log("Number is not in range");
+        messageElm.innerHTML = "Number is not in range!";
+        console.log("Number is not in range!");
         messageFadeout();
     }
     else {
-        console.log(message2);
+        console.log(message);
     }
     let a = parseFloat(firstNum.value);
     let b = parseFloat(secondNum.value);

@@ -18,7 +18,7 @@ let message: string = " ";
 const messageFadeout = () => {
   setTimeout(() => {
     messageElm.innerHTML = "";
-  }, 10000);
+  }, 10000); // 10 second delay
 };
 
 // Addition function
