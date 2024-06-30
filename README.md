@@ -37,13 +37,16 @@ To create a simple calculator app using:
 - Enter any number (between less that 9999.99 and greater than -9999.99) in the First and Second number field
 - Select any button like 'Addition', 'Subtraction', 'Multiplication', and 'Division' to complete the desired calculation.
 - The result will display in the Calculation Result area.
-- To clear the entered number in any field and the output result, 'click' on Clear button.  
-
+- To clear the entered number in any field and the output result, 'click' on Clear button.
 
 ## Deployed
 
 - \*[Calculator App](https://rococo-tanuki-20f259.netlify.app/)
 
+## GIF Files
+
+- GIF for Calculator use.
+  ![Gif View](./MahiCalculatior.gif)
 
 ## Tools
 
