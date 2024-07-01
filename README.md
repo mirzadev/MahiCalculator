@@ -4,7 +4,7 @@
 
 ## Overview
 
-AS A Senior QA Asalyst in MahiGamming, I want to develop a simple app that works as calculator to perform my simple task for calculation.
+AS A Senior QA Analyst in MahiGamming, I want to develop a simple app that works as calculator to perform my simple task for calculation.
 
 ## Table of Contents
 
