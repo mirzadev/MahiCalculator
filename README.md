@@ -12,6 +12,7 @@ AS A Senior QA Analyst in MahiGamming, I want to develop a simple app that works
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployed](#deployed)
+- [GIF Files](#GifFiles)
 - [Tools](#tools)
 - [Questions](#questions)
 
@@ -43,7 +44,7 @@ To create a simple calculator app using:
 
 - \*[Calculator App](https://rococo-tanuki-20f259.netlify.app/)
 
-## GIF Files
+## GifFiles
 
 - GIF for Calculator use.
   ![Gif View](./MahiCalculatior.gif)
